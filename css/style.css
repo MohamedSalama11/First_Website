@@ -199,7 +199,7 @@ p {
   padding: 0 15px;
 }
 .header .logo a {
-  font-size: 24px;
+  font-size: 21px;
   color: #24caac;
   text-transform: capitalize;
   font-weight: 500;
@@ -716,7 +716,7 @@ p {
 @media (max-width: 991px) {
   .header .nav-toggler {
     display: flex;
-    margin-right: 15px;
+    margin-right: 0;
   }
   .header .nav {
     width: 100%;
