@@ -199,7 +199,7 @@ p {
   padding: 0 15px;
 }
 .header .logo a {
-  font-size: 21px;
+  font-size: 19px;
   color: #24caac;
   text-transform: capitalize;
   font-weight: 500;
@@ -801,6 +801,11 @@ p {
   .footer-item {
     width: 100%;
     text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 568px) {
+  .header .logo a {
+    font-size: 19px;
   }
 }
 /* End Media Query */
